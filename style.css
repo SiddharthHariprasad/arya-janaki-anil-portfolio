@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #C3D9AD;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#logo {
+    text-decoration: none;
+    font-size: 35px;
+    color: #42693C;
+    padding: 20px 50px;
+    font-weight: 500;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    padding: 20px 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #42693C;
+    font-weight: 500;
+}
+
+h2 {
+    color: #42693C;
+    font-size: 30px;
+}
+
+#profile {
+    width: 30%;
+    float: left;
+    padding: 20px 80px;
+    border-radius: 50%;
+}
+
+#intro {
+    padding-left: 200px;
+}
+
+#intro h2 {
+    padding: 100px 20px 0px 20px;
+}
+
+#intro p {
+    padding: 0 20px 50px 20px;
+}
+
+section {
+    padding-left: 300px;
+    padding-right: 300px;
+    max-width: 1300px;
+}
+
+p {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact > a {
+    text-decoration: none;
+    color: #42693C;
+}
+
+footer {
+    text-align: center;
+}
